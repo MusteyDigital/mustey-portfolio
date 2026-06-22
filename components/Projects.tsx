@@ -11,7 +11,7 @@ const projects = [
     description: "A full-stack analytics dashboard with CSV upload, real-time data visualization, and AI-powered sales forecasting. Built with React on the frontend and a Python FastAPI backend that processes data using Pandas, NumPy, and Scikit-learn.",
     tech: ["React", "FastAPI", "Python", "Pandas", "Scikit-learn"],
     image: "/projects/project2.png",
-    link: "https://github.com/MusteyDigital/sales-dashboard",
+    link: "sales-dashboard-chi-murex.vercel.app",
   },
   {
     title: "Portfolio Website",

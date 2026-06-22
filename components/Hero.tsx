@@ -26,13 +26,13 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex gap-4">
-            <button className="px-6 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-purple-500">
+            <a href="#projects" className="px-6 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-purple-500">
               View My Work
-            </button>
+            </a>
 
-            <button className="px-6 py-3 rounded-xl border border-blue-500">
+            <a href="#contact" className="px-6 py-3 rounded-xl border border-blue-500">
               Contact Me
-            </button>
+            </a>
           </div>
         </div>
 

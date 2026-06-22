@@ -1,3 +1,5 @@
+import { FaGithub, FaWhatsapp, FaFacebook } from "react-icons/fa";
+
 export default function Footer() {
   return (
     <footer className="bg-[#0a0a0a] border-t border-white/10 text-gray-400 py-10 px-8 md:px-20">
@@ -7,10 +9,16 @@ export default function Footer() {
           <p className="text-sm mt-1">Full-Stack Developer | Cloud & DevOps | Web Educator</p>
         </div>
 
-        <div className="flex gap-6">
-          <a href="https://github.com/MusteyDigital" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">GitHub</a>
-          <a href="https://musteydigitalacademy.online" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">Website</a>
-          <a href="mailto:mustaphaadamu6773@gmail.com" className="hover:text-purple-400 transition">Email</a>
+        <div className="flex gap-5">
+          <a href="https://github.com/MusteyDigital" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition" aria-label="GitHub">
+            <FaGithub size={22} />
+          </a>
+          <a href="https://wa.me/2349067735805" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition" aria-label="WhatsApp">
+            <FaWhatsapp size={22} />
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61550253342707" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition" aria-label="Facebook">
+            <FaFacebook size={22} />
+          </a>
         </div>
       </div>
 

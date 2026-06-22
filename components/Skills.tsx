@@ -1,12 +1,18 @@
 const skills = [
   { name: "React", icon: "⚛️" },
   { name: "Next.js", icon: "▲" },
-  { name: "Tailwind CSS", icon: "🎨" },
+  { name: "HTML5", icon: "🌐" },
+  { name: "CSS3", icon: "🎨" },
   { name: "JavaScript", icon: "🟨" },
   { name: "TypeScript", icon: "🔷" },
+  { name: "Tailwind CSS", icon: "💨" },
   { name: "Laravel", icon: "🔺" },
+  { name: "Python", icon: "🐍" },
+  { name: "FastAPI", icon: "⚡" },
   { name: "Node.js", icon: "🟢" },
   { name: "MySQL", icon: "🗄️" },
+  { name: "Docker", icon: "🐳" },
+  { name: "Cloud (Akamai)", icon: "☁️" },
   { name: "Git & GitHub", icon: "🐙" },
 ];
 

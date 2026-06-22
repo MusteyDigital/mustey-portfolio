@@ -34,10 +34,11 @@ export default function About() {
         <div className="bg-[#13131f] rounded-2xl p-8 border border-purple-900/40">
           <h3 className="text-xl font-semibold mb-4">What I Do</h3>
           <ul className="space-y-3 text-gray-300">
-            <li>⚡ Frontend Development (React, Next.js, Tailwind)</li>
-            <li>🛠 Backend Development (Laravel, Node.js)</li>
+            <li>⚡ Frontend Development (React, Next.js, HTML5, CSS3, Tailwind CSS)</li>
+            <li>🛠 Backend Development (PHP, Laravel, FastAPI, Node.js, REST APIs)</li>
             <li>🗄 Database Design (MySQL)</li>
-            <li>🚀 Deployment & Performance Optimization</li>
+            <li>🐳 Cloud & DevOps (Docker, Akamai Cloud, Linux Server)</li>
+            <li>📊 Data Analysis & Forecasting (Python, Pandas, Scikit-learn)</li>
           </ul>
         </div>
 
